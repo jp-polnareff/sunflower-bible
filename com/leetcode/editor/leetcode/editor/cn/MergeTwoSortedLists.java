@@ -46,24 +46,6 @@ public class MergeTwoSortedLists {
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     class Solution2 {
         public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
             ListNode prehead = new ListNode(-1);
