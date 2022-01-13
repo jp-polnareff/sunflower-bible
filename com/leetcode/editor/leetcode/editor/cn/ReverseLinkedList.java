@@ -68,6 +68,7 @@ public class ReverseLinkedList {
                 cur = next;
             }
             return pre;
+
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

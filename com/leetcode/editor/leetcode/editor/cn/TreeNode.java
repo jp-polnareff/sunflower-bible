@@ -5,9 +5,9 @@ package com.leetcode.editor.leetcode.editor.cn;
  * @date 2021/12/22 3:43 下午
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
     TreeNode() {
     }
